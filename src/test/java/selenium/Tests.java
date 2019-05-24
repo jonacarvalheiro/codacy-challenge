@@ -6,8 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/main/java/selenium/features",
-        glue = "selenium.steps"
+        features = {"src/main/java/selenium/features", "src/main/java/api/features"},
+        glue = {"selenium.steps", "api.steps", "hooks"},
+        tags = "@CommitStatus"
 )
 public class Tests {
 

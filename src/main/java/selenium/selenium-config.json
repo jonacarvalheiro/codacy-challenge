@@ -7,8 +7,22 @@
   "pages": {
     "login": {
       "url": "https://www.codacy.com/",
-      "username": "",
-      "password": ""
+      "username": "codacychallenge",
+      "password": "Codacy2019"
+    },
+    "myProject": {
+      "dummyProjectName": "dummy-add-remove-project"
+    },
+    "addProject": {
+      "testProject": "jonacarvalheiro dummy-add-remove-project"
+    },
+    "settings": {
+      "username": "codacychallenge",
+      "dummyProjectName": "dummy-add-remove-project"
+    },
+    "dashboard": {
+      "username": "codacychallenge",
+      "dummyProjectName": "dummy-add-remove-project"
     }
   }
 }
