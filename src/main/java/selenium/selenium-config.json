@@ -1,0 +1,14 @@
+{
+  "browserName": "chrome",
+  "url": "http://localhost:4444:/",
+  "timeout": 30,
+  "polling": 2,
+  "remote": false,
+  "pages": {
+    "login": {
+      "url": "https://www.codacy.com/",
+      "username": "",
+      "password": ""
+    }
+  }
+}

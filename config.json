@@ -1,0 +1,3 @@
+{
+  "seleniumConfig": "src/main/java/selenium/selenium-config.json"
+}
