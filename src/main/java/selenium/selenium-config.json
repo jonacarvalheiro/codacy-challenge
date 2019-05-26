@@ -1,9 +1,9 @@
 {
   "browserName": "chrome",
-  "url": "http://localhost:4444:/",
+  "url": "http://localhost:4444/wd/hub",
   "timeout": 30,
   "polling": 2,
-  "remote": false,
+  "remote": true,
   "pages": {
     "login": {
       "url": "https://www.codacy.com/",

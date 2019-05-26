@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+    codacy_tests:
+        image: codacy-test-image:latest
+        container_name: codacy-test
+        privileged: true
+        env_file:
+            - env-file.env
+        network_mode: "host"
