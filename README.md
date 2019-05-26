@@ -69,16 +69,13 @@
 	
 	* Docker-compose
 	* Maven;
-	
-###	4.1 - Feature file (Intellij IDEA)
-		* Right-click on the feature you want to run and click run.
 
-###	4.2 - Docker-compose
+### 4.1 - Docker-compose
 		* Please make sure you have the Docker Image already build (see 5)
 		* Define the tag you want to run, and add it to the CUCUMBER_OPTIONS in env-file.env.
 		* Go to selenium-grid folder and run docker-compose up -d to raise Selenium Grid
 		* Run the command docker-compose up -d
-### 4.3 - Maven
+### 4.2 - Maven
 		* Open cmd or Git Bash in your project directory;
 		* Run the following command:
 		 'mvn clean test -Dcucumber.options="--tags @ExampleTag"'.
