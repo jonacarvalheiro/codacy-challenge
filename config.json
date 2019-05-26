@@ -1,0 +1,4 @@
+{
+  "seleniumConfig": "src/main/java/selenium/selenium-config.json",
+  "restServicesConfig": "src/main/java/api/services-config.json"
+}

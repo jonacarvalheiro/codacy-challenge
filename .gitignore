@@ -1,3 +1,6 @@
+# Intellij
+.idea/*
+target/*
 # Compiled class file
 *.class
 
@@ -11,7 +14,7 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+
 *.war
 *.nar
 *.ear

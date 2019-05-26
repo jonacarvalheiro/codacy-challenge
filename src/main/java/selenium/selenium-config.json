@@ -1,0 +1,28 @@
+{
+  "browserName": "chrome",
+  "url": "http://localhost:4444/wd/hub",
+  "timeout": 30,
+  "polling": 2,
+  "remote": true,
+  "pages": {
+    "login": {
+      "url": "https://www.codacy.com/",
+      "username": "codacychallenge",
+      "password": "Codacy2019"
+    },
+    "myProject": {
+      "dummyProjectName": "dummy-add-remove-project"
+    },
+    "addProject": {
+      "testProject": "jonacarvalheiro dummy-add-remove-project"
+    },
+    "settings": {
+      "username": "codacychallenge",
+      "dummyProjectName": "dummy-add-remove-project"
+    },
+    "dashboard": {
+      "username": "codacychallenge",
+      "dummyProjectName": "dummy-add-remove-project"
+    }
+  }
+}

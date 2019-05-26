@@ -1,0 +1,18 @@
+{
+  "baseUrl": " https://api.codacy.com/2.0",
+  "username": "codacychallenge@gmail.com",
+  "pwd": "Codacy2019",
+  "apiToken": "yQi349TI4MCJ9MVixGUb",
+  "services": {
+    "commit": {
+      "apiUsername": "codacychallenge",
+      "projectName": "dummy-project-test",
+      "repositoryUrl": "https://github.com/jonacarvalheiro/dummy-project-test.git",
+      "branch": "master",
+      "authorName": "jonathan.mendescarvalheiro",
+      "authorEmail": "jonathan.mendescarvalheiro@gmail.com",
+      "repositoryUsername": "jonathan.mendescarvalheiro@gmail.com",
+      "repositoryPwd": "Picachuamarelo9"
+    }
+  }
+}
