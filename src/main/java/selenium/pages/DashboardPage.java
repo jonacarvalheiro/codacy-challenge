@@ -11,7 +11,6 @@ import java.util.Map;
 public class DashboardPage extends WebDriverHelper {
     private final Map<String, Object> dashboardConfiguration;
     private final WebDriver driver;
-    private By myProjectsAncorLocator = By.xpath("//*[@id='dropdown-organization-name']/a");
     private By settingsSideBarLocator = By.id("sidebar_settings");
     private By dashboardSideBarSelectedLocator = By.xpath("//*[@id='sidebar_dashboard' and contains(@class, 'selected')]");
 

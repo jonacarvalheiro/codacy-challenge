@@ -3,7 +3,6 @@ package api.steps;
 import api.requests.CommitRequests;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
 import org.awaitility.Awaitility;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.json.simple.parser.ParseException;
