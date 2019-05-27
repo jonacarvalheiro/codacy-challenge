@@ -2,7 +2,6 @@ package selenium.steps;
 
 
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.json.simple.parser.ParseException;
 import selenium.SeleniumWrapper;
@@ -10,7 +9,6 @@ import selenium.exceptions.UnsupportedBrowserException;
 import selenium.pages.LoginPage;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 
 
 public class LoginSteps {
@@ -22,13 +20,13 @@ public class LoginSteps {
     }
 
     @When("I login with google account")
-    public void iLoginWithGoogleAccount() throws UnsupportedBrowserException, MalformedURLException {
+    public void iLoginWithGoogleAccount() {
 
         loginPage.loginWithGoogleAccount();
     }
 
     @Given("I navigate to Codacy Page")
-    public void iNavigateToCodacyPage() throws UnsupportedBrowserException, MalformedURLException {
+    public void iNavigateToCodacyPage() {
         loginPage.navigateToLoginPage();
     }
 

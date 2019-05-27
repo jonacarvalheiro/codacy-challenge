@@ -91,7 +91,7 @@ public class CommitRequests extends RestAssuredWrapper {
 
         git.rm().addFilepattern(testFilename).call();
 
-        RevCommit rev = git.commit().setAuthor(getData("authorName"), getData("authorEmail")).setMessage("Delete test file").call();
+        git.commit().setAuthor(getData("authorName"), getData("authorEmail")).setMessage("Delete test file").call();
         git.push().setCredentialsProvider(new UsernamePasswordCredentialsProvider(getData("repositoryUsername"), getData("repositoryPwd"))).call();
     }
 }

@@ -13,6 +13,8 @@ public class MyProjectsPage extends WebDriverHelper {
     private final Map<String, Object> myProjectConfiguration;
     private final WebDriver driver;
     private By dummyProjectDivLocator;
+    private By projectSearchInputLocator = By.id("project-search");
+    private By addProjectButtonLocator = By.id("add_project_btn");
 
 
     public MyProjectsPage(WebDriver driver, SeleniumConfigurator configurator) {
@@ -20,9 +22,6 @@ public class MyProjectsPage extends WebDriverHelper {
         this.driver = driver;
         myProjectConfiguration = configurator.getPage("myProject");
     }
-
-    private By projectSearchInputLocator = By.id("project-search");
-    private By addProjectButtonLocator = By.id("add_project_btn");
 
 
     public void assertMyProjectPage() {

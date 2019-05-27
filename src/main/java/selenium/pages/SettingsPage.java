@@ -11,7 +11,6 @@ import java.util.Map;
 public class SettingsPage extends WebDriverHelper {
     private final Map<String, Object> settingsConfiguration;
     private final WebDriver driver;
-    private By myProjectsAncorLocator = By.xpath("//*[@id='dropdown-organization-name']/a");
     private By removeProjectLocator = By.id("unregister_project_btn");
     private By confirmRemoveProjectButtonLocator = By.cssSelector(".btnRemoveProject");
     private By settingsSideBarSelectedLocator = By.xpath("//*[@id='sidebar_settings' and contains(@class, 'selected')]");

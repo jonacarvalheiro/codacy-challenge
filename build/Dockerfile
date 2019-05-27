@@ -5,10 +5,10 @@ RUN mkdir -p /opt/tests
 ADD codacyTests.tar.gz /opt/tests
 RUN chmod +x /opt/tests/codacyTests/build/run_tests.sh
 RUN mvn install:install-file \
-  -Dfile=/opt/tests/codacyTests/build/bugcatcher-1.0-SNAPSHOT.jar \
-  -DgroupId=QAE \
+  -Dfile=/opt/tests/codacyTests/build/bugcatcher-0.1.0.jar \
+  -DgroupId=qae \
   -DartifactId=bugcatcher \
-  -Dversion=1.0-SNAPSHOT \
+  -Dversion=0.1.0 \
   -Dpackaging=jar
   
 RUN cd /opt/tests/codacyTests/ && mvn install -Dmaven.test.skip=true

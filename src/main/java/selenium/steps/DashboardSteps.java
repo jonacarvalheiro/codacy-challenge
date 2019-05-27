@@ -5,7 +5,6 @@ import org.json.simple.parser.ParseException;
 import selenium.SeleniumWrapper;
 import selenium.exceptions.UnsupportedBrowserException;
 import selenium.pages.DashboardPage;
-import selenium.pages.SettingsPage;
 
 import java.io.IOException;
 
