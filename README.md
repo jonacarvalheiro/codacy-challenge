@@ -1,4 +1,4 @@
-# codacyTests
+# Codacy Challenge
 
 ## Requirements
 ### To run directly from the project 
